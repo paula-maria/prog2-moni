@@ -1,0 +1,22 @@
+//etapa 1 - demonstração inicial
+#include <stdio.h>
+
+int main(void)
+{
+    int n = 50;
+    printf("%i\n", n);
+}
+
+//etapa 2 - criando o ponteiro e printar o endereço da memória onde foi alocado
+
+#include <stdio.h>
+
+int main(void)
+{
+    int n = 50;
+    int *p = &n; // cria o ponteiro
+  
+    printf("%p\n", p);
+  printf("Endereço de n: %p\n", &n); // Imprime o valor guardado no ponteiro
+  printf("Valor de p: %p\n", p);   // imprime 
+}
