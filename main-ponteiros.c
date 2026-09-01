@@ -76,7 +76,7 @@ void trocar(int *a, int *b) {
 
 int main(void)
 {
-    int x = 1, y = 2;
+    int x = 1; y = 2;
     
     printf("Antes: x = %d, y = %d\n", x, y);
     
